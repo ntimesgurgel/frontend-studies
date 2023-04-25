@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.carousel-img{
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
+.font-pacifico{
+    font-family: 'Pacifico', sans-serif;
+}
+
+.color-dark-red{
+    color: darkred !important;
+}
+
+.btn-dark-red{
+    color: white;
+    background-color: darkred;
+}
+
+.card-design{
+    border-color: darkred;
+    max-width: 18px;
+}
+
+.img-position{
+    object-fit: cover;
+    height: 200px;
+}

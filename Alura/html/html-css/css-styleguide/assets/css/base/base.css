@@ -1,0 +1,44 @@
+@import url("_reset.css");
+@import url("_variaveis.css");
+body {
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+    background: url("../../img/fundo.png"), url("../../img/fundo-linhas.svg");
+    background-position: center;
+    color: var(--cinza);
+}
+
+.container {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.titulo {
+    font-size: var(--tamanho-titulo);
+}
+
+.titulo--destaque {
+    font-family: var(--familia-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+    display: block;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.alinhamento--esquerda {
+    text-align: left;
+}
+
+.alinhamento--meio {
+    text-align: center;
+}
+
+.alinhamento--direita {
+    text-align: right;
+}
+
+.texto {
+    line-height: 26px;
+}

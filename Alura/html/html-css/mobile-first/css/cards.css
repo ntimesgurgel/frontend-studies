@@ -1,0 +1,88 @@
+.cards {
+    margin: 1em auto;
+    padding: 5%;
+    width: 90%;
+    background-color: var(--branco);
+    border-radius: 16px;
+    box-shadow: 0px 6px 10px 1px rgba(0, 0, 255, .2);
+}
+
+.cards__descricao {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cards__descricao-texto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 50%;
+    padding: 0.25em;
+}
+
+.cards__descricao-texto h3 {
+    color: var(--laranja);
+    font-family: var(--fonte-padrao);
+    font-weight: 700;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.cards__descricao-texto h2 {
+    color: var(--azul);
+    font-family: var(--fonte-padrao);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: 0.5em 0;
+}
+
+.cards__descricao-texto p {
+    color: var(--azul-degrade);
+    font-family: var(--fonte-padrao);
+    font-size: 14px;
+    line-height: 1.5rem;
+    width: 80%;
+}
+
+.cards__imagem {
+    width: 50%;
+    height: 50%;
+}
+
+.cards__acoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards__botoes {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards__saiba-mais {
+    width: 41%;
+    text-align: center;
+    font-family: var(--fonte-padrao);
+    font-weight: 700;
+    color: var(--branco);
+    background-color: var(--laranja);
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+}
+
+.cards__estrela {
+    width: 50%;
+    margin-bottom: 0.5em;
+}
+
+@media screen and (min-width: 1024px) {
+    .cards {
+        width: 40%;
+        padding: 2.5%;
+    }
+}

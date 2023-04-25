@@ -1,0 +1,42 @@
+.rodape {
+    padding: 1em;
+}
+
+.rodape__titulo {
+    font-weight: 400;
+}
+
+.rodape__secao {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .rodape__secao {
+        display: flex;
+        flex-direction: column;
+    }
+    .rodape__subtitulo,
+    .rodape__descricao-produto {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .rodape__subtitulo {
+        color: var(--cinza);
+        text-transform: uppercase;
+        margin-bottom: 1.5em;
+    }
+    .rodape__descricao-produto {
+        color: var(--cinza-escuro);
+    }
+    .rodape__produto {
+        display: flex;
+        align-items: center;
+    }
+    .rodape__imagem {
+        padding: 0.4em;
+    }
+}
